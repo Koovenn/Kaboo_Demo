@@ -21,7 +21,7 @@ class UI {
 
   displayVictoryScreen() {
     add([sprite("title_screen")])
-    add([text("You won!", { size: 80, font: "m5x7" }), pos(520, 320), color(0, 200, 50)]);
+    add([text("Victory!", { size: 80, font: "m5x7" }), pos(520, 320), color(0, 200, 50)]);
 
     onKeyPress("enter", () => {
       play("confirm")

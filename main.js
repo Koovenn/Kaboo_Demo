@@ -127,9 +127,11 @@ const scenes = {
       }
     );
 
-    setGravity(1800); // Set the gravity value and add the background sprites
+    setGravity(1800); // Set the gravity value
 
     map.use(scale(2)); // Scales the map to the full background size
+
+      // Add the player
 
     const player = add([
       sprite("idle_sprite", { anim: "idle_anim" }),
